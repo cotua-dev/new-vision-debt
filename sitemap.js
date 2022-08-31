@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://www.debtadvisorsofamerica.com',
+    siteUrl: 'https://www.newvisiondebt.com',
     generateRobotsTxt: true,
 };
