@@ -2,13 +2,13 @@ import Link from 'next/link';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import styles from './Footer.module.scss';
-import whiteLogo from '../../public/images/debt-advisors-white-logo.png';
+import whiteLogo from '../../public/images/new-vision-debt-logo.png';
 
 export function Footer(): JSX.Element {
     return (
         <footer className={styles['debt-advisors-footer']}>
             <div className={styles['footer-content-wrapper']}>
-                <div className={styles['logo-text']}>
+                {/* <div className={styles['logo-text']}>
                     <Link href="/">
                         <a aria-label="Home Page Link">
                             <picture>
@@ -29,7 +29,7 @@ export function Footer(): JSX.Element {
                     >
                         {`We would be delighted to answer any inquiry you might have about your debt and how we can help!`}
                     </p>
-                </div>
+                </div> */}
                 <div className={styles['contact-us']}>
                     <strong className={styles['title']}>{`Office Hours`}</strong>
                     <p data-testid="monday-to-friday" className={styles['content']}>

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import styles from './Navigation.module.scss';
 import { NavigationLink } from './Navigation.interfaces';
-import regularLogo from '../../public/images/debt-advisors-logo.png';
+import regularLogo from '../../public/images/new-vision-debt-logo.png';
 
 export function Navigation(): JSX.Element {
     const links: NavigationLink[] = [
