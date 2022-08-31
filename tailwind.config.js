@@ -6,8 +6,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'daa-red': '#C00A0F',
-                'daa-purple': '#2B2F73',
+                'daa-red': '#0F8B21',
+                'daa-purple': '#1C3599',
             },
         },
     },
