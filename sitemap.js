@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://www.newvisiondebt.com',
+    siteUrl: 'https://www.newvisiondebtco.com',
     generateRobotsTxt: true,
 };
