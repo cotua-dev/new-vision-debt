@@ -15,10 +15,10 @@ export function Header(props: HeaderProps) {
                 </>
             }
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <meta name="og:title" content={props.title}/>
+            <meta name="og:title" content={props.title ? props.title : 'New Vision Debt'}/>
             <meta name="og:type" content="website"/>
             <meta name="og:url" content="https://www.newvisiondebtco.com"/>
-            <meta name="og:image" content="https://www.newvisiondebtco.com/seo/home.jpg"/>
+            <meta name="og:image" content="https://www.newvisiondebtco.com/images/seo/home.jpg"/>
             <meta name="og:image:alt" content="Person working on debt"/>
             <meta name="og:locale" content="en_US"/>
             <meta name="og:site_name" content="New Vision Debt"/>
