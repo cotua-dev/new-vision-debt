@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faCheck } from '@fortawesome/free-solid-svg-icons';
 import styles from './Benefit.module.scss';
-import regularLogo from '../../../public/images/debt-advisors-logo.png';
+import regularLogo from '../../../public/images/new-vision-debt-logo.png';
 
 export function Benefit(): JSX.Element {
     return (
@@ -33,7 +33,7 @@ export function Benefit(): JSX.Element {
                                     <img
                                         className="w-36 mx-auto"
                                         src={regularLogo.src}
-                                        alt="Debt Advisors Of America Regular Logo"
+                                        alt="New Vision Debt Logo"
                                         loading="lazy"
                                     />
                                 </picture>
