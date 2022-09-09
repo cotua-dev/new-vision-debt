@@ -2,104 +2,85 @@
 
 exports[`WhatWeDo Component renders 1`] = `
 <section
-  class="what-we-do"
+  class="py-12 px-2 flex"
 >
-  <h2
-    class="what-we-do-title"
-  >
-    What We Do
-  </h2>
-  <p
-    class="what-we-do-content"
-  >
-    Debt Advisors of America helps individuals across the U.S. by 1) gathering personal information to determine a consolidation plan that will best fit your needs. Our service is a form of debt consolidation without a loan. 2) Our customized evaluations aim to help you reduce what you owe, avoid filing for bankruptcy, and finally overcome overwhelming debt.
-  </p>
   <div
-    class="actions-wrapper"
+    class="max-w-7xl mx-auto flex flex-col xl:flex-row items-center"
   >
     <div
-      class="action"
+      class="max-w-prose text-center mb-4 xl:text-left xl:max-w-lg"
     >
-      <picture>
-        <source />
-        <img
-          alt="You Tell Us About Your Financial Situation Logo"
-          class="action-image"
-          loading="lazy"
-        />
-      </picture>
-      <strong
-        class="action-title"
+      <h2
+        class="text-4xl text-daa-purple font-black mb-2"
       >
-        You Tell Us About Your Financial Situation
-      </strong>
+        Save Thousands Off Your Consumer Debts
+      </h2>
       <p
-        class="action-description"
+        class="font-light"
       >
-        Call us or fill out our online form to receive a free, no obligation consultation
+        Dealing with debts from credit cards, loans and medical bills can be a daunting process. We partnered with a network of nationwide attorneys that can negotiate and resolve your debts.
       </p>
     </div>
     <div
-      class="action"
+      class="flex flex-col xl:flex-row xl:flex-wrap justify-center xl:justify-end gap-4"
     >
-      <picture>
-        <source />
-        <img
-          alt="We Tailor a Debt Relief Program That is Right For You Logo"
-          class="action-image"
-          loading="lazy"
-        />
-      </picture>
-      <strong
-        class="action-title"
+      <div
+        class="max-w-prose text-center xl:text-left xl:max-w-xs"
       >
-        We Tailor a Debt Relief Program That is Right For You
-      </strong>
-      <p
-        class="action-description"
+        <strong
+          class="text-2xl text-daa-purple font-black mb-2"
+        >
+          Cut Your Debt
+        </strong>
+        <p
+          class="font-light"
+        >
+          Specialized debt litigation attorneys fight creditors so your unsecured debts are invalidated through the FDCPA (Fair Debt Collection Practices Act).
+        </p>
+      </div>
+      <div
+        class="max-w-prose text-center xl:text-left xl:max-w-xs"
       >
-        Programs can be modified to fit your specific needs
-      </p>
-    </div>
-    <div
-      class="action"
-    >
-      <picture>
-        <source />
-        <img
-          alt="You Tell Us About Your Financial Situation Logo"
-          class="action-image"
-          loading="lazy"
-        />
-      </picture>
-      <strong
-        class="action-title"
+        <strong
+          class="text-2xl text-daa-purple font-black mb-2"
+        >
+          Save Your Money
+        </strong>
+        <p
+          class="font-light"
+        >
+          Why scramble each month to make your high-interest minimum payments. Start putting that money back in your pocket for future emergencies.
+        </p>
+      </div>
+      <div
+        class="max-w-prose text-center xl:text-left xl:max-w-xs"
       >
-        You Tell Us About Your Financial Situation
-      </strong>
-      <p
-        class="action-description"
+        <strong
+          class="text-2xl text-daa-purple font-black mb-2"
+        >
+          Erase Bad Credit
+        </strong>
+        <p
+          class="font-light"
+        >
+          Watch thousands of dollars in charge-offs & delinquencies disappear as they are disputed by our nationwide debt resolution legal team.
+        </p>
+      </div>
+      <div
+        class="max-w-prose text-center xl:text-left xl:max-w-xs"
       >
-        Call us or fill out our online form to receive a free, no obligation consultation
-      </p>
+        <strong
+          class="text-2xl text-daa-purple font-black mb-2"
+        >
+          Unsecured Loans
+        </strong>
+        <p
+          class="font-light"
+        >
+          Get access to low-interest, unsecured loans. We shop multiple loan programs and banks to get you the lowest rates and terms.
+        </p>
+      </div>
     </div>
   </div>
-  <a
-    class="free-debt-consultation"
-    href="/stepper"
-  >
-    Get a Free Debt Consultation Now
-  </a>
-  <p
-    class="details"
-  >
-    For more details 
-    <a
-      class="how-it-works"
-      href="/"
-    >
-      visit our How it Works page
-    </a>
-  </p>
 </section>
 `;
