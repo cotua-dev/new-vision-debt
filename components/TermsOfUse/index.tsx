@@ -2,14 +2,14 @@ import Link from 'next/link';
 import styles from './TermsOfUse.module.scss';
 
 export function TermsOfUse(): JSX.Element {
-    const homeURL = 'www.debtadvisorsofamerica.com';
-    const email = 'info@contactdaa.com';
+    const homeURL = 'www.newvisiondebtco.com';
+    const email = 'info@newvisiondebt.com';
 
     return (
         <section className={styles['terms-of-use']}>
             <h1>{`Binding Effect`}</h1>
             <p>
-                {`These Terms of Use constitute a legally binding agreement made between Debt Resolution Direct, LLC d/b/a Debt Advisors of America Company and you, the person accessing `}
+                {`These Terms of Use constitute a legally binding agreement made between New Vision Debt Company and you, the person accessing `}
                 <Link href="/"><a>{homeURL}</a></Link>
                 {`, including any content, functionality and services offered on or through `}
                 <Link href="/"><a>{homeURL}</a></Link>
@@ -65,12 +65,6 @@ export function TermsOfUse(): JSX.Element {
             <h2>{`Copyright Infringement`}</h2>
             <p>
                 {`Company has in place certain legally mandated procedures regarding allegations of copyright infringement occurring on the Website. Company has adopted a policy that provides for the immediate suspension and/or termination of any user who is found to have infringed on the rights of Company or of a third party, or otherwise violated any intellectual property laws or regulations. Company’ policy is to investigate any allegations of copyright infringement brought to its attention. If you have evidence, know, or have a good faith belief that your rights or the rights of a third party have been violated and you want Company to delete, edit, or disable the material in question, you must provide Company with all of the following information: (a) a physical or electronic signature of a person authorized to act on behalf of the owner of the exclusive right that is allegedly infringed; (b) identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works are covered by a single notification, a representative list of such works; (c) identification of the material that is claimed to be infringed or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit Company to locate the material; (d) information reasonably sufficient to permit Company to contact you, such as an address, telephone number, and if available, an electronic mail address at which you may be contacted; (e) a statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and (f) a statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed. For this notification to be effective, you must provide it to Company’s designated agent at:`}
-            </p>
-            <p>
-                {`Rich Senitte, Owner`}<br/>
-                {`Debt Advisors of America`}<br/>
-                {`7565 Mission Valley RD Ste 120 San Diego CA 92108`}<br/>
-                <a href={`mailto:${email}`}>{email}</a>
             </p>
             <h2>{`Changes to the Website`}</h2>
             <p>
@@ -147,7 +141,7 @@ export function TermsOfUse(): JSX.Element {
             <h2>{`Other Terms & Conditions`}</h2>
             <h2>{`Governing Law`}</h2>
             <p>
-                {`These Terms of Use shall be construed in accordance with and governed by the laws of the United States and the State of California, without reference to their rules regarding conflicts of law. You hereby irrevocably consent to the exclusive jurisdiction of the state or federal courts in San Diego County, California, USA in all disputes arising out of or related to the use of the Website.`}
+                {`These Terms of Use shall be construed in accordance with and governed by the laws of the United States and the State of California, without reference to their rules regarding conflicts of law. You hereby irrevocably consent to the exclusive jurisdiction of the state or federal courts in Orange County, California, USA in all disputes arising out of or related to the use of the Website.`}
             </p>
             <h2>{`Severability; Waiver`}</h2>
             <p>
@@ -162,7 +156,7 @@ export function TermsOfUse(): JSX.Element {
                 {`You may not assign, convey, subcontract or delegate your rights, duties or obligations hereunder. Unless otherwise stated, any other rules, restrictions, guidelines and terms and conditions that may be posted or made available in connection with a particular feature on the Website are incorporated by this reference into these Terms of Use. Your use of the Website is independent of Company and not as an employee, agent or partner with Company for any purpose. You agree that your use of the Website will not create any joint venture, partnership, employment or agency relationship between you and Company.`}
             </p>
             <p>
-                {`Last Updated: June 2021`}
+                {`Last Updated: September 2022`}
             </p>
         </section>
     );
