@@ -33,10 +33,13 @@ export function Footer(): JSX.Element {
                 <div className={styles['contact-us']}>
                     <strong className={styles['title']}>{`Office Hours`}</strong>
                     <p data-testid="monday-to-friday" className={styles['content']}>
-                        {`Monday to Friday 6:00 am to 7:00 pm PST`}
+                        {`Monday to Friday 8:00 am to 5:00 pm PST`}
                     </p>
                     <p data-testid="saturday" className={styles['content']}>
-                        {`Saturday 7:00 am to 2:00 pm PST`}
+                        {`Saturday Online Only`}
+                    </p>
+                    <p data-testid="sunday" className={styles['content']}>
+                        {`Sunday Online Only`}
                     </p>
                 </div>
                 <div className={styles['phone-email-submit']}>
@@ -48,18 +51,28 @@ export function Footer(): JSX.Element {
                         <a
                             data-testid="phone"
                             className={styles['info']}
-                            href="tel:+18009202365"
-                        >{`800-920-2365`}</a>
+                            href="tel:+18009211420"
+                        >{`800-921-1420`}</a>
                     </div>
-                    <div className={styles['contact-info']}>
+                    <div className="flex flex-col">
                         {/* <p className={styles['title']}>
                             <FontAwesomeIcon className={styles['icon']} icon={faEnvelope}/> {`Email`}
                         </p> */}
                         <a
                             data-testid="email"
-                            className={styles['info']}
-                            href="mailto:info@contactdaa.com"
-                        >{`info@contactdaa.com`}</a>
+                            className="duration-200 hover:text-daa-red text-sm"
+                            href="mailto:info@newvisiondebt.com"
+                        >{`info@newvisiondebt.com`}</a>
+                        <a
+                            data-testid="email"
+                            className="duration-200 hover:text-daa-red text-sm"
+                            href="mailto:sales@newvisiondebt.com"
+                        >{`sales@newvisiondebt.com`}</a>
+                        <a
+                            data-testid="email"
+                            className="duration-200 hover:text-daa-red text-sm"
+                            href="mailto:support@newvisiondebt.com"
+                        >{`support@newvisiondebt.com`}</a>
                     </div>
                     {/* <div className={styles['email-submit']}>
                         <input
