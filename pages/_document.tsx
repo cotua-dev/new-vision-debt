@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <script dangerouslySetInnerHTML={{__html: `
+                    {/* <script dangerouslySetInnerHTML={{__html: `
                     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -27,7 +27,7 @@ class MyDocument extends Document {
                     gtag('js', new Date());
                     gtag('config', '${process.env.NEXT_PUBLIC_GTAG2}');
                     `}}>
-                    </script>
+                    </script> */}
                     <script dangerouslySetInnerHTML={{__html:`
                     !function(f,b,e,v,n,t,s)
                     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -47,25 +47,23 @@ class MyDocument extends Document {
                         {
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
-                            "image": [
-                                "https://www.debtadvisorsofamerica.com/images/icons/android/android-launchericon-512-512.png"
-                            ],
-                            "name": "Debt Advisors of America",
+                            "image": [],
+                            "name": "New Vision Debt",
                             "priceRange": "$$$",
                             "address": {
                                 "@type": "PostalAddress",
-                                "streetAddress": "6863 Friars Rd Ste 101",
-                                "addressLocality": "San Diego",
+                                "streetAddress": "3857 Birch Street Suite 25",
+                                "addressLocality": "Newport Beach",
                                 "addressRegion": "CA",
-                                "postalCode": "92108-1266",
+                                "postalCode": "92660",
                                 "addressCountry": "US"
                             },
                             "geo": {
                                 "@type": "GeoCoordinates",
-                                "latitude": 32.7682309039158,
-                                "longitude": -117.17241555980162
+                                "latitude": 33.6636008,
+                                "longitude": -117.8735437
                             },
-                            "telephone": "+18006320437",
+                            "telephone": "+18009211420",
                             "openingHoursSpecification": [
                                 {
                                     "@type": "OpeningHoursSpecification",
@@ -76,26 +74,18 @@ class MyDocument extends Document {
                                         "Thursday",
                                         "Friday"
                                     ],
-                                    "opens": "06:00",
-                                    "closes": "19:00"
-                                },
-                                {
-                                    "@type": "OpeningHoursSpecification",
-                                    "dayOfWeek": [
-                                        "Saturday"
-                                    ],
-                                    "opens": "07:00",
-                                    "closes": "14:00"
+                                    "opens": "08:00",
+                                    "closes": "17:00"
                                 }
                             ]
                         }
                     `}}></script>
-                    <meta name="google-site-verification" content="K5XkTynh2jWVW2scOiufUcJKDHMqI9H9BB33any5Vo0"/>
+                    <meta name="facebook-domain-verification" content="cm5qf23sjyglf55oi0fkhi3rri6ep9"/>
                 </Head>
                 <body>
                     <Main/>
                     <NextScript/>
-                    <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM}`} height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
+                    {/* <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM}`} height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript> */}
                     <noscript><img height="1" width="1" style={{display:'none'}} alt="Facebook Img" src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FBQ}&ev=PageView&noscript=1`}/></noscript>
                 </body>
             </Html>
