@@ -1,8 +1,8 @@
 {
-    "name": "Debt Advisors of America",
-    "short_name": "Debt Advisors",
-    "theme_color": "#2B2F73",
-    "background_color": "#C00A0F",
+    "name": "New Vision Debt",
+    "short_name": "New Vision Debt",
+    "theme_color": "#1c3599",
+    "background_color": "#00500a",
     "display": "fullscreen",
     "orientation": "portrait",
     "scope": "/",
@@ -10,35 +10,30 @@
     "splash_pages": null,
     "icons": [
         {
-            "src": "images/icons/android/android-launchericon-48-48.png",
+            "src": "images/icons/android-icon-48x48.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "images/icons/android/android-launchericon-72-72.png",
+            "src": "images/icons/android/android-icon-72x72.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "images/icons/android/android-launchericon-96-96.png",
+            "src": "images/icons/android/android-icon-96x96.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "images/icons/android/android-launchericon-144-144.png",
+            "src": "images/icons/android/android-icon-144x144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "images/icons/android/android-launchericon-192-192.png",
+            "src": "images/icons/android/android-icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
-        },
-        {
-            "src": "images/icons/android/android-launchericon-512-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
         }
     ]
 }
