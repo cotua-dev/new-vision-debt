@@ -8,7 +8,7 @@ export async function getStaticProps(): Promise<PageProps> {
 
 function PrivacyPolicy(): JSX.Element {
     return (
-        <Layout title="Privacy Policy – Debt Advisors">
+        <Layout title="Privacy Policy – New Vision Debt">
             <PrivacyPolicyContent/>
         </Layout>
     );

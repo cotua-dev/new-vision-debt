@@ -9,7 +9,7 @@ export async function getStaticProps(): Promise<PageProps> {
 
 function AboutUs(): JSX.Element {
     return (
-        <Layout title="About Us – Debt Advisors">
+        <Layout title="About Us – New Vision Debt">
             <Jumbotron/>
             <Learn/>
         </Layout>
