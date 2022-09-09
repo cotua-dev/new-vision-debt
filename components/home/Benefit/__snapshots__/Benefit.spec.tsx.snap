@@ -76,7 +76,7 @@ exports[`Benefit Component renders 1`] = `
             <picture>
               <source />
               <img
-                alt="Debt Advisors Of America Regular Logo"
+                alt="New Vision Debt Logo"
                 class="w-36 mx-auto"
                 loading="lazy"
               />

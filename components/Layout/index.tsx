@@ -3,7 +3,7 @@ import { Header } from '../Header';
 import { Navigation } from '../Navigation';
 import { LayoutProps } from './Layout.interfaces';
 
-export function Layout(props: LayoutProps = { title: 'Debt Advisors', children: [] }): JSX.Element {
+export function Layout(props: LayoutProps = { title: 'New Vision Debt', children: [] }): JSX.Element {
     return (
         <>
             <Header title={props.title}/>

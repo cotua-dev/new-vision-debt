@@ -11,7 +11,7 @@ export async function getStaticProps(): Promise<PageProps> {
 function ThankYou(): JSX.Element {
     return (
         <ThankYouLayout>
-            <Layout title="Thank You – Debt Advisors">
+            <Layout title="Thank You – New Vision Debt">
                 <section className={styles['thank-you']}>
                     <div className={styles['content-wrapper']}>
                         <h1>{`Thank you for registering!`}</h1>

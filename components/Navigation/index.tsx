@@ -33,7 +33,7 @@ export function Navigation(): JSX.Element {
                         </picture>
                     </a>
                 </Link>
-                <div className={styles['links-wrapper']}>
+                {/* <div className={styles['links-wrapper']}>
                     {links.map((link: NavigationLink) => (
                         <Link href={link.url} key={link.key}>
                             <a
@@ -50,9 +50,9 @@ export function Navigation(): JSX.Element {
                     type="button"
                     onClick={() => setNavToggle(true)}
                     aria-label="Mobile Navigation Toggle Button"
-                ><FontAwesomeIcon className={styles['hamburger']} icon={faBars}/></button>
+                ><FontAwesomeIcon className={styles['hamburger']} icon={faBars}/></button> */}
             </nav>
-            {navToggle &&
+            {/* {navToggle &&
                 <aside
                     data-testid="mobile-navigation"
                     className={styles['debt-advisors-mobile-navigation']}
@@ -78,7 +78,7 @@ export function Navigation(): JSX.Element {
                         ))}
                     </div>
                 </aside>
-            }
+            } */}
         </>
     );
 }

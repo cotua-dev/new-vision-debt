@@ -29,7 +29,12 @@ exports[`Verify Component renders 1`] = `
     >
       Privacy Policy.
     </a>
-     You may receive every week until you tell us to stop trying to contact you. 
+     You may receive every week until you tell us to stop trying to contact you. To stop receiving phone calls, call 
+    <a
+      href="tel:+18009211420"
+    >
+      800-921-1420.
+    </a>
      To stop receiving text messages, reply STOP. To stop receiving emails, click the UNSUBSCRIBE button in the message.
   </small>
 </div>

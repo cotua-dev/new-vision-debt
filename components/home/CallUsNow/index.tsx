@@ -5,10 +5,10 @@ export function CallUsNow(): JSX.Element {
         <section className={styles['debt-advisors-call-us-now']}>
             <div className={styles['content-wrapper']}>
                 <strong className={styles['content-text']}>
-                    {`For expert debt resolution advice you can trust the licensed partners of Debt Advisors of America`}
+                    {`For expert debt resolution advice you can trust the licensed partners of New Vision Debt`}
                 </strong>
-                <a className={styles['phone-link']} href="tel:+18009202365">
-                    <span className={styles['number']}>{`800-920-2365`}</span>
+                <a className={styles['phone-link']} href="tel:+18009211420">
+                    <span className={styles['number']}>{`800-921-1420`}</span>
                     <span className={styles['text']}>{`CALL US NOW`}</span>
                 </a>
             </div>

@@ -108,7 +108,7 @@ export function Stepper(props: StepperProps): JSX.Element {
         if (props['stepper-type'] === 'short') {
             const bitrixResponse: Response | undefined = await addBitrixContactDeal(data);
 
-            if (bitrixResponse !== undefined && bitrixResponse.status === 200) {
+            if (bitrixResponse !== undefined && bitrixResponse.status === 201) {
                 sendThankYouPage();
             } else {
                 setError('Something went wrong. Please try again');
@@ -127,8 +127,8 @@ export function Stepper(props: StepperProps): JSX.Element {
             if (verifyResponse !== undefined && verifyResponse.status === 200) {
                 const bitrixResponse: Response | undefined = await addBitrixContactDeal(data);
 
-                // Make sure we have a response object and its status is 200
-                if (bitrixResponse !== undefined && bitrixResponse.status === 200) {
+                // Make sure we have a response object and its status is 201
+                if (bitrixResponse !== undefined && bitrixResponse.status === 201) {
                     // Send to thank you page with browser refresh (this way state is completely wiped in one go)
                     sendThankYouPage();
                 } else {

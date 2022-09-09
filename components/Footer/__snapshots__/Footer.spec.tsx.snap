@@ -8,30 +8,6 @@ exports[`Footer Component renders 1`] = `
     class="footer-content-wrapper"
   >
     <div
-      class="logo-text"
-    >
-      <a
-        aria-label="Home Page Link"
-        href="/"
-      >
-        <picture>
-          <source />
-          <img
-            alt="Debt Advisors Of America White Logo"
-            class="white-logo"
-            data-testid="white-logo"
-            loading="lazy"
-          />
-        </picture>
-      </a>
-      <p
-        class="footer-text"
-        data-testid="footer-text"
-      >
-        We would be delighted to answer any inquiry you might have about your debt and how we can help!
-      </p>
-    </div>
-    <div
       class="contact-us"
     >
       <strong
@@ -43,13 +19,19 @@ exports[`Footer Component renders 1`] = `
         class="content"
         data-testid="monday-to-friday"
       >
-        Monday to Friday 6:00 am to 7:00 pm PST
+        Monday to Friday 8:00 am to 5:00 pm PST
       </p>
       <p
         class="content"
         data-testid="saturday"
       >
-        Saturday 7:00 am to 2:00 pm PST
+        Saturday Online Only
+      </p>
+      <p
+        class="content"
+        data-testid="sunday"
+      >
+        Sunday Online Only
       </p>
     </div>
     <div
@@ -66,20 +48,34 @@ exports[`Footer Component renders 1`] = `
         <a
           class="info"
           data-testid="phone"
-          href="tel:+18009202365"
+          href="tel:+18009211420"
         >
-          800-920-2365
+          800-921-1420
         </a>
       </div>
       <div
-        class="contact-info"
+        class="flex flex-col"
       >
         <a
-          class="info"
+          class="duration-200 hover:text-daa-red text-sm"
           data-testid="email"
-          href="mailto:info@contactdaa.com"
+          href="mailto:info@newvisiondebt.com"
         >
-          info@contactdaa.com
+          info@newvisiondebt.com
+        </a>
+        <a
+          class="duration-200 hover:text-daa-red text-sm"
+          data-testid="email"
+          href="mailto:sales@newvisiondebt.com"
+        >
+          sales@newvisiondebt.com
+        </a>
+        <a
+          class="duration-200 hover:text-daa-red text-sm"
+          data-testid="email"
+          href="mailto:support@newvisiondebt.com"
+        >
+          support@newvisiondebt.com
         </a>
       </div>
     </div>

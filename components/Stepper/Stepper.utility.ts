@@ -138,7 +138,7 @@ export async function sendSMS(phone: string): Promise<Response | undefined> {
 
             // Send a request with the E.164 phone number that will send an SMS to the provided phone number
             // with a 6 digit code for verification
-            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/TwilioVerifyPhoneNumber`, {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/SendSMS`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ phoneNumber: e164PhoneNumber }),
@@ -167,7 +167,7 @@ export async function verifySMSCode(phone: string, code: string): Promise<Respon
             const e164PhoneNumber: string = parsePhoneNumber(phone);
 
             // Send a request with the E.164 phone number and code for verification
-            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/TwilioVerifyCode`, {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/VerifyCode`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ phoneNumber: e164PhoneNumber, code }),
@@ -190,7 +190,7 @@ export async function verifySMSCode(phone: string, code: string): Promise<Respon
 export async function addBitrixContactDeal(data: ParsedStepperModel): Promise<Response | undefined> {
     try {
         // Kick off request using the passed data object
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/DAABitrix`, {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/Bitrix`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),

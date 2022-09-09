@@ -1,13 +1,13 @@
 import styles from './PrivacyPolicy.module.scss';
 
 export function PrivacyPolicy(): JSX.Element {
-    const email = 'info@contactdaa.com';
+    const email = 'info@newvisiondebt.com';
 
     return (
         <section className={styles['privacy-policy']}>
             <h1>{`Privacy Policy`}</h1>
             <p>
-                {`Debt Resolution Direct, LLC d/b/a Debt Advisors of America and its respective affiliates. Company respects the privacy of all users of our website, including, but not limited to, our clients your. When you use our Website, we may obtain data from you and your devices. This Privacy Policy is designed to provide transparency into our privacy practices, such as what information we collect from you, how we use this information, to whom it is shared, how it is stored, and, and more.`}
+                {`New Debt Vision and its respective affiliates. Company respects the privacy of all users of our website, including, but not limited to, our clients your. When you use our Website, we may obtain data from you and your devices. This Privacy Policy is designed to provide transparency into our privacy practices, such as what information we collect from you, how we use this information, to whom it is shared, how it is stored, and, and more.`}
             </p>
             <h2>{`Agreement to Terms`}</h2>
             <p>
@@ -149,7 +149,7 @@ export function PrivacyPolicy(): JSX.Element {
                 <a href={`mailto:${email}`}>{email}</a>
                 {` You may use an authorized agent to submit a request to know or a request to delete. When we verify your agent’s request, we may verify both your and your agent’s identity and request a signed document from you that authorizes your agent to make the request on your behalf. To protect your Personal Information, we reserve the right to deny a request from an agent that does not submit proof that they have been authorized by you to act on your behalf.`}
             </p>
-            <h2>{`For Nevada Residents`}</h2>
+            {/* <h2>{`For Nevada Residents`}</h2>
             <p>
                 {`We are providing you this notice pursuant to state law. You may be placed on our internal “do not call” list by calling `}
                 <a href="tel:+18887684767">{`888-768-4767`}</a>
@@ -165,7 +165,7 @@ export function PrivacyPolicy(): JSX.Element {
             <h2>{`For Vermont Residents`}</h2>
             <p>
                 {`In accordance with Vermont law, we will not share information we collect about Vermont residents with companies who are not affiliates, except as permitted by law, such as with your consent or to service your accounts. We will not share information about your creditworthiness with our affiliates without your authorization or consent but we may share information about our transactions or experiences with you with our affiliates without your consent`}
-            </p>
+            </p> */}
             <h2>{`Right to Opt-Out of the Sale of Personal Information`}</h2>
             <p>
                 {`You have the right to opt-out of the sale of your personal information. You may opt-out by emailing us at `}
@@ -178,7 +178,7 @@ export function PrivacyPolicy(): JSX.Element {
                 <a href={`mailto:${email}`}>{email}</a>
             </p>
             <p>
-                {`Last Updated: June 9, 2021`}
+                {`Last Updated: September 2022`}
             </p>
         </section>
     );

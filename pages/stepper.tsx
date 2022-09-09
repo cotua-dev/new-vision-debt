@@ -8,7 +8,7 @@ export async function getStaticProps(): Promise<PageProps> {
 
 function StepperPage(): JSX.Element {
     return (
-        <Layout title="Stepper - Debt Advisors">
+        <Layout title="Stepper - New Vision Debt">
             <Stepper stepper-type="full"/>
         </Layout>
     );

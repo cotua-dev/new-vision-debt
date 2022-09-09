@@ -8,7 +8,7 @@ exports[`PrivacyPolicy Component renders 1`] = `
     Privacy Policy
   </h1>
   <p>
-    Debt Resolution Direct, LLC d/b/a Debt Advisors of America and its respective affiliates. Company respects the privacy of all users of our website, including, but not limited to, our clients your. When you use our Website, we may obtain data from you and your devices. This Privacy Policy is designed to provide transparency into our privacy practices, such as what information we collect from you, how we use this information, to whom it is shared, how it is stored, and, and more.
+    New Debt Vision and its respective affiliates. Company respects the privacy of all users of our website, including, but not limited to, our clients your. When you use our Website, we may obtain data from you and your devices. This Privacy Policy is designed to provide transparency into our privacy practices, such as what information we collect from you, how we use this information, to whom it is shared, how it is stored, and, and more.
   </p>
   <h2>
     Agreement to Terms
@@ -218,9 +218,9 @@ exports[`PrivacyPolicy Component renders 1`] = `
   <p>
     Request to delete. You have the right to request that we delete the Personal Information that we have collected from you. We may deny your request under certain circumstances, such as if we need to comply with our legal obligations or complete a transaction for which your Personal Information was collected. If we deny your request to delete, we will let you know the reason why. You may submit a request for deletion via the following methods: E-mail 
     <a
-      href="mailto:info@contactdaa.com"
+      href="mailto:info@newvisiondebt.com"
     >
-      info@contactdaa.com
+      info@newvisiondebt.com
     </a>
   </p>
   <p>
@@ -229,48 +229,11 @@ exports[`PrivacyPolicy Component renders 1`] = `
   <p>
     You have the right to know what personal information is sold, shared, or disclosed with third parties. As such, you may submit a verifiable consumer request via the following methods: E-mail us at 
     <a
-      href="mailto:info@contactdaa.com"
+      href="mailto:info@newvisiondebt.com"
     >
-      info@contactdaa.com
+      info@newvisiondebt.com
     </a>
      You may use an authorized agent to submit a request to know or a request to delete. When we verify your agent’s request, we may verify both your and your agent’s identity and request a signed document from you that authorizes your agent to make the request on your behalf. To protect your Personal Information, we reserve the right to deny a request from an agent that does not submit proof that they have been authorized by you to act on your behalf.
-  </p>
-  <h2>
-    For Nevada Residents
-  </h2>
-  <p>
-    We are providing you this notice pursuant to state law. You may be placed on our internal “do not call” list by calling 
-    <a
-      href="tel:+18887684767"
-    >
-      888-768-4767
-    </a>
-    . Nevada law requires that we also provide you with the following contact information:
-  </p>
-  <p>
-    Bureau of Consumer Protection
-    <br />
-    Office of the Nevada Attorney General
-    <br />
-    555 E. Washington St. – Suite 3900, Las Vegas, NV 89101
-    <br />
-    <a
-      href="tel:+17024863132"
-    >
-      702-486-3132
-    </a>
-    <br />
-    <a
-      href="mailto:BCPINFO@ag.state.nv.us"
-    >
-      BCPINFO@ag.state.nv.us
-    </a>
-  </p>
-  <h2>
-    For Vermont Residents
-  </h2>
-  <p>
-    In accordance with Vermont law, we will not share information we collect about Vermont residents with companies who are not affiliates, except as permitted by law, such as with your consent or to service your accounts. We will not share information about your creditworthiness with our affiliates without your authorization or consent but we may share information about our transactions or experiences with you with our affiliates without your consent
   </p>
   <h2>
     Right to Opt-Out of the Sale of Personal Information
@@ -278,9 +241,9 @@ exports[`PrivacyPolicy Component renders 1`] = `
   <p>
     You have the right to opt-out of the sale of your personal information. You may opt-out by emailing us at 
     <a
-      href="mailto:info@contactdaa.com"
+      href="mailto:info@newvisiondebt.com"
     >
-      info@contactdaa.com
+      info@newvisiondebt.com
     </a>
      and following the directions.
   </p>
@@ -290,13 +253,13 @@ exports[`PrivacyPolicy Component renders 1`] = `
   <p>
     If you have any questions, comments or concerns regarding this Privacy Policy, please feel free to contact us at 
     <a
-      href="mailto:info@contactdaa.com"
+      href="mailto:info@newvisiondebt.com"
     >
-      info@contactdaa.com
+      info@newvisiondebt.com
     </a>
   </p>
   <p>
-    Last Updated: June 9, 2021
+    Last Updated: September 2022
   </p>
 </section>
 `;

@@ -8,7 +8,7 @@ export async function getStaticProps(): Promise<PageProps> {
 
 function TermsOfUse(): JSX.Element {
     return (
-        <Layout title="Terms Of Use – Debt Advisors">
+        <Layout title="Terms Of Use – New Vision Debt">
             <TermsOfUseContent/>
         </Layout>
     );
