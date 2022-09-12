@@ -25,6 +25,7 @@ export function Stepper(props: StepperProps): JSX.Element {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
     const [disableVerifyField, setDisableVerifyField] = useState(true);
+    const minimum = 5000;
 
     // Fields
     const [zipCode, setZipCode] = useState(props['user-info'] === undefined ? '' : props['user-info'].zip);
@@ -176,7 +177,7 @@ export function Stepper(props: StepperProps): JSX.Element {
             const unsecuredDebtAmountNumber: number = parseCurrencyValue(model.unsecuredDebtAmount);
 
             // Check if the debt is less than $5,000
-            if (unsecuredDebtAmountNumber < 5000) {
+            if (unsecuredDebtAmountNumber < minimum) {
                 // If so, send to disqualify page with browser refresh (this way state is completely wiped in one go)
                 window.location.href = `${window.location.origin}/dq`;
             }
@@ -357,6 +358,11 @@ export function Stepper(props: StepperProps): JSX.Element {
                 })}
             </div>
             {loading && <FontAwesomeIcon className="h-7 text-daa-purple animate-spin" icon={faCircleNotch} spin/>}
+            {steps[currentStep].question === Questions.UnsecuredDebtAmount &&
+                <small className="text-daa-red font-black mb-2">
+                    {`The minimum unsecured debt is ${Intl.NumberFormat('en', { style: 'currency', currency: 'USD' }).format(minimum)}`}
+                </small>
+            }
             {error !== '' && <small className={styles['error']}>{error}</small>}
             <div className={styles['stepper-controls-wrapper']}>
                 <button
