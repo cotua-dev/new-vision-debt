@@ -44,6 +44,7 @@ export interface StepperModel extends Partial<MailerModel> {
     phone: string;
     code: string;
     isMailer: boolean;
+    sourceSite: string;
 };
 
 export interface ParsedStepperModel extends Partial<MailerModel> {
@@ -60,6 +61,7 @@ export interface ParsedStepperModel extends Partial<MailerModel> {
     phone: string;
     site: string;
     isMailer: boolean;
+    sourceSite: string;
 };
 
 export interface Step {
