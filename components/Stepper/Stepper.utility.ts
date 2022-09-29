@@ -121,6 +121,7 @@ export function parseModel(unparsedModel: StepperModel): ParsedStepperModel {
         phone: parsePhoneNumber(unparsedModel.phone),
         site: window.location.href,
         isMailer: unparsedModel.isMailer,
+        sourceSite: window.location.href,
     };
 }
 
