@@ -15,6 +15,7 @@ export const initialStepperModel: StepperModel = {
     phone: '',
     code: '',
     isMailer: false,
+    sourceSite: '',
 };
 
 export const startingSteps: Step[] = [
